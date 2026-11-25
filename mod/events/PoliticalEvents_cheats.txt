@@ -100,6 +100,7 @@ country_event = {
 		set_country_flag = superior_firepower
 		set_country_flag = turret_choice
 		set_country_flag = casemante_turret_choice
+		set_country_flag = proximity_fuze_ships_set
 		clr_country_flag = light_air
 		clr_country_flag = diesel_engine
 		clr_country_flag = cast_armour
@@ -1642,6 +1643,7 @@ country_event = {
 			any_country = { limit = { tag = THIS NOT = { three_four = 5 } } three_four = 9999 }
 			any_country = { limit = { tag = THIS NOT = { three_four = 5 } } three_four = 9999 }
 			any_country = { limit = { tag = THIS NOT = { three_four = 5 } } three_four = 9999 }
+			any_country = { limit = { tag = THIS NOT = { proximity_fuze_ships = 1 } } proximity_fuze_ships = 9999 }
 			# carrier_folder
 			any_country = { limit = { tag = THIS NOT = { light_carrier_technology = 9 } } light_carrier_technology = 9999 }
 			any_country = { limit = { tag = THIS NOT = { light_carrier_technology = 9 } } light_carrier_technology = 9999 }

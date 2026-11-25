@@ -1,0 +1,115 @@
+### zBI-tag-Soviet-HQs.txt [decision:80] omg=0
+   SOV_mot_HQ_I |  | mot_HQ_tech=1 | country_event
+   SOV_mot_HQ_II |  | mot_HQ_tech=2 | country_event
+### zBI-tag-USA-HQs.txt [decision:80] omg=0
+   USA_mot_HQ_I |  | mot_HQ_tech=1 | country_event
+   USA_mot_HQ_II |  | mot_HQ_tech=2 | country_event
+### zBI-tag-Japan-HQs.txt [decision:80] omg=0
+   JAP_mot_HQ_I |  | mot_HQ_tech=1 | country_event
+   JAP_mot_HQ_II |  | mot_HQ_tech=2 | country_event
+### zBI-tag-Fra-HQs.txt [decision:80] omg=0
+   FRA_mot_HQ_I |  | mot_HQ_tech=1 | country_event
+   FRA_mot_HQ_II |  | mot_HQ_tech=2 | country_event
+### zBI-tag-ITA-HQs.txt [decision:80] omg=0
+   ITA_mot_HQ_I |  | mot_HQ_tech=1 | country_event
+   ITA_mot_HQ_II |  | mot_HQ_tech=2 | country_event
+### zBI-tag-Ger-HQs.txt [decision:80] omg=0
+   GER_mot_HQ_I |  | mot_HQ_tech=1 | country_event
+   GER_mot_HQ_II |  | mot_HQ_tech=2 | country_event
+### zBI-tag-Eng-HQs.txt [decision:80] omg=0
+   ENG_mot_HQ_I |  | mot_HQ_tech=1 | country_event
+   ENG_mot_HQ_II |  | mot_HQ_tech=2 | country_event
+### zBI-tag-Sov-Gds-HQs.txt [decision:50] omg=0
+   SOV_guard_HQ_I |  | guard_HQ_tech=1 | country_event
+   SOV_guard_HQ_II |  | guard_HQ_tech=2 | country_event
+### Transportation_tech_decisions.txt [decision:48] omg=0
+   road_I |  | road_highway=1 | set_country_flag add_country_modifier
+   road_II |  | road_highway=2 | set_country_flag add_country_modifier
+### Mixed Support Upgrades.txt [mtth:46] omg=0
+   82400 | Tank Destroyer upgrade for Armored Support Br | tank_destroyer_brigade_activation=1 | country_event set_country_flag
+   82401 | Medium Tank Destroyer upgrade for Armored Sup | medium_tank_destroyer_brigade_activation=1 | country_event set_country_flag
+### ss_decisions.txt [decision:40] omg=0
+   ss_HQ_I |  | ss_HQ_tech=1 | country_event
+   ss_HQ_II |  | ss_HQ_tech=2 | country_event
+### event test.txt [triggered-only:40] omg=0
+   530010 | EVTNAME530013 | grand_battle_plan=1 | add_country_modifier country_event
+   530011 | EVTNAME530013 | grand_battle_plan=1 | add_country_modifier country_event
+### battlecommanders.txt [mtth:31] omg=0
+   147123 | New plane for Erich Hartmann! | jet_fighters_activation=1 | country_event load_oob set_country_flag add_country_modifier
+   147124 | New planes for our best pilots! | jet_fighters_activation=1 | country_event load_oob set_country_flag add_country_modifier
+### OOB_Decisions.txt [decision:29] omg=0
+   502SchPz_decision |  | tiger_tech=1 | country_event
+   503SchPz_decision |  | tiger_tech=1 | country_event
+### Specials.txt [decision:22] omg=0
+   motorized_mixed_support_decision |  | motorized_infantry=1 | set_country_flag country_event
+   motorized_mixed_support_decision_AI |  | motorized_infantry=1 | set_country_flag
+### ss-events.txt [mtth:22] omg=0
+   49261 | SS Paratroops | paratrooper_infantry=1 | country_event set_country_flag
+   49262 | SS Commandos | commando_brigade_activation=1 | country_event set_country_flag
+### KampfGruppen.txt [mtth:13] omg=0
+   48901 | Kampfgruppe Knittel | combined_arms_integration=1 | country_event set_country_flag load_oob add_country_modifier
+   48889 | Kampfgruppe Graf | combined_arms_integration=1 | country_event set_country_flag load_oob add_country_modifier
+### broadcasting_events.txt [mtth:12] omg=0
+   14648 | Broadcasting! | broadcasting=1 | country_event set_country_flag
+   14649 | Broadcasting! | broadcasting=2 | country_event set_country_flag
+### Soviet_Decisions.txt [decision:10] omg=0
+   SOV_guard_mech_HQ_I |  | guard_mech_HQ_tech=1 | country_event
+   SOV_guard_mech_HQ_II |  | guard_mech_HQ_tech=2 | country_event
+### Strat_resource_purchases.txt [decision:9] omg=0
+   synthetic_rubber_decision |  | oil_refining=3 | country_event
+   heavy_water_decision |  | heavy_water_production=1 | money supplies country_event
+### PoliticalEvents.txt [mtth:8] omg=0
+   14644 | EVTNAME14644 | secretary_of_public_information_and_education=1 | country_event add_country_modifier
+   14872 | EVTNAME14644 | secretary_of_public_information_and_education=1 secretary_of_public_information_and_educat | country_event add_country_modifier
+### AdvancedDivisions.txt [mtth:7] omg=0
+   990000 | EVTNAMEMARNE990000 | divisonal_command_structure=1 divisonal_command_structure=2 divisonal_command_structure=3  | country_event money supplies load_oob
+   990001 | EVTNAMEMARNE990000 | divisonal_command_structure=1 divisonal_command_structure=2 divisonal_command_structure=3  | country_event money supplies load_oob
+### architecture.txt [mtth:6] omg=0
+   14628 | New monumental building for the Nation | monumental_architecture=1 | country_event set_country_flag
+   14629 | New monumental building for the Nation | monumental_architecture=2 | country_event set_country_flag
+### architecture for ai.txt [mtth:6] omg=0
+   14688 | Giant Infrastructure Project | gigant_infrastructure_projects=1 | country_event set_country_flag
+   14689 | Giant Infrastructure Project | gigant_infrastructure_projects=2 | country_event set_country_flag
+### zDD-Event_chains.txt [mtth:5] omg=0
+   89002 | EVTNAME89002 | mechnical_computing_machine=1 decryption_machine=1 | country_event set_country_flag add_country_modifier
+   89003 | EVTNAME89003 | mechnical_computing_machine=1 decryption_machine=1 | country_event set_country_flag
+### Manhattan_project.txt [mtth:5] omg=0
+   58002 | Heavy Water reactor construction possible | heavy_water_production=1 heavy_water_reactor=1 | country_event set_country_flag
+   58003 | Obtaining Uranium supply | experimental_nuclear_reactor=1 | country_event set_country_flag
+### Build-Forts.txt [mtth:4] omg=0
+   91104 | EVTNAME91104 | radar=1 | country_event set_country_flag add_country_modifier supplies
+   91250 | EVTNAME91250 | radar=1 | country_event set_country_flag add_country_modifier supplies
+### Propaganda.txt [decision:4] omg=0
+   party_rally |  | mass_events=1 | money supplies country_event
+   military_parade |  | mass_events=1 | money supplies country_event
+### OfficerRecruitment.txt [mtth:3] omg=0
+   960100 | EVTNAMEMARNE960100 | officer_recruitment_program=1 | country_event set_country_flag add_country_modifier
+   960101 | EVTNAMEMARNE960100 | officer_recruitment_program=2 | country_event set_country_flag add_country_modifier
+### Soviet_Events.txt [mtth:3] omg=0
+   48914 | Guards Mechanized Brigades | mechanised_infantry=1 | country_event set_country_flag
+   48916 | Guards Heavy Armor Brigade | heavy_armor_brigade_design=3 | country_event set_country_flag
+### OMG_Decisions.txt [decision:3] omg=0
+   strategic_doctrine_pick |  | deep_battle_doctrine=1 grand_battle_plan=1 superior_firepower=1 blitzkrieg=1 | set_country_flag
+   strategic_doctrine_pick_final |  | deep_battle_doctrine=1 grand_battle_plan=1 superior_firepower=1 blitzkrieg=1 | country_event
+### manhattan_project_decisions.txt [decision:3] omg=
+   strategic_resources_domestic_uranium |  | graphite_reactor=1 heavy_water_reactor=1 | set_country_flag
+   strategic_resources_trade_uranium |  | graphite_reactor=1 heavy_water_reactor=1 | set_country_flag
+### gigant_infrastructure_projects.txt [decision:3] omg=0
+   new_projects1 |  | gigant_infrastructure_projects=1 | set_country_flag
+   new_projects2 |  | gigant_infrastructure_projects=2 | set_country_flag
+### engine_event.txt [mtth:2] omg=0
+   600004 | Planes focus change | heavy_planes_construction=1 | country_event set_country_flag add_country_modifier
+   600005 | Vehicle Type Choice | assault_gun_brigade_activation=1 gasoline_engine_design=2 diesel_engine_design=2 armor_bri | country_event set_country_flag
+### Japan.txt [mtth:2] omg=0
+   91833 | Type 93/95 Long Lance Torpedo | submarine_torpedo=2 | country_event set_country_flag
+   48920 | Kamikaze Aircraft | Tenacious_defense=1 | country_event set_country_flag
+### zBI_Italy_decisions.txt [decision:1] omg=0
+   RM_Aquila |  | carrier_technology=1 carrier_class=2 | country_event set_country_flag
+### CommandoRaids.txt [mtth:1] omg=0
+   999000 | EVTNAMEMARNE9000 | commando_brigade_activation=1 | country_event money supplies set_country_flag add_country_modifier
+### monumentaldecisions.txt [decision:1] omg=0
+   moviestudio |  | broadcasting=2 | money country_event
+### IslandHoppingEvents.txt [mtth:1] omg=0
+   25001 | EVTNAMEMARNE25001 | defense_work_designs=1 light_infantry_brigade_activation=3 jungle_training=1 jungle_warfar | country_event set_country_flag
+### eventOOBs_GER.txt [mtth:1] omg=0
+   91112 | EVTNAME91112 | paratrooper_infantry=1 | country_event set_country_flag supplies load_oob

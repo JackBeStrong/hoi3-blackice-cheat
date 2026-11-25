@@ -11,7 +11,7 @@ $seen = @{}; Import-Csv (Join-Path $PSScriptRoot 'data\seen.csv') | ForEach-Obje
 $histMax = @{ fleet_auxiliary_submarine_doctrine = 4; small_bomb = 3; large_bomb = 3; mountain_infantry = 2; census_tabulation_machine = 2 }
 
 # Never-researchable techs are skipped, except closed_hangar (the player's choice; the mod's steel event grants it the same way)
-$includeNever = @('closed_hangar')
+$includeNever = @('closed_hangar', 'proximity_fuze_ships')
 
 # Exclusive choices that were NOT picked, plus nation-specific techs
 $excludeNames = @(
@@ -79,7 +79,7 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('		# lock in the choices so the mod''s choice events do not ask again or switch them')
 foreach ($f in 'heavy_air', 'heavy_air_gas_weld', 'gasoline_engine', 'welded_armour', 'special_treatment_steel',
-    'superior_firepower', 'turret_choice', 'casemante_turret_choice') {
+    'superior_firepower', 'turret_choice', 'casemante_turret_choice', 'proximity_fuze_ships_set') {
     [void]$sb.AppendLine("		set_country_flag = $f")
 }
 foreach ($f in 'light_air', 'diesel_engine', 'cast_armour', 'cemented_armor', 'vickers_steel',

@@ -20,10 +20,16 @@ The mod has exclusive tech branches. These are hard-coded:
 - heavy air, gasoline engine, welded armour
 - Special Treatment Steel, closed hangar
 - Superior Firepower doctrine, Befehlstaktik
-- turreted vehicles, torpedo floatplane, 3x4 turret layout
+- turreted vehicles, torpedo floatplane, 3x4 turret layout (not its reverse variant)
 - division size increases at max
 
+Also granted: `closed_hangar` and `proximity_fuze_ships`. Neither can be researched; the mod normally hands them out through the ship armour event and a 1944+ background decision.
+
 Skipped: never-researchable techs (mixed/motorized/armored support upgrades, `*_info`), hidden tracker techs, nation-specific techs (Sherman, T-34, Tiger, Long Lance, ...), SS, Guards and NKVD techs, and the other three doctrine trees.
+
+If some techs stop short of max (e.g. late jet levels), fire the event again; it never goes past max.
+
+After firing, expect a burst of mod events and new decisions over the next game month or two, since everything that checks tech levels qualifies at once (HQ decisions, Special Warfare Training Center, KampfGruppen, transportation decisions, ...). See `reports/tech_events_summary.txt`.
 
 ## Layout
 
@@ -32,6 +38,7 @@ Skipped: never-researchable techs (mixed/motorized/armored support upgrades, `*_
 - `mod/common/event_modifiers_cheats.txt`: `cheatunits`, `cheatresearch` and `leadship1` modifiers, copied from the end of `common/event_modifiers.txt`
 - `techscan.ps1`: scans the mod's `technologies/*.txt` and writes `data/techs.csv` with each tech's category, max level, folder and `allow` block
 - `gen_event.ps1`: builds event 9996 from `data/techs.csv` and replaces the 9996 block in the mod's `PoliticalEvents.txt`
+- `eventscan.ps1`: lists every mod event and decision whose trigger checks a tech that event 9996 grants -> `reports/tech_events.csv`
 - `data/seen.csv`: highest level of each tech seen in a 1940 save, used as the cap for techs without `max_level`
 - `reports/`: tech lists produced while working out which techs are gated or exclusive
 

@@ -1569,11 +1569,6 @@ country_event = {
 			any_country = { limit = { tag = THIS NOT = { three_four = 5 } } three_four = 9999 }
 			any_country = { limit = { tag = THIS NOT = { three_four = 5 } } three_four = 9999 }
 			any_country = { limit = { tag = THIS NOT = { three_four = 5 } } three_four = 9999 }
-			any_country = { limit = { tag = THIS NOT = { three_four_reverse = 5 } } three_four_reverse = 9999 }
-			any_country = { limit = { tag = THIS NOT = { three_four_reverse = 5 } } three_four_reverse = 9999 }
-			any_country = { limit = { tag = THIS NOT = { three_four_reverse = 5 } } three_four_reverse = 9999 }
-			any_country = { limit = { tag = THIS NOT = { three_four_reverse = 5 } } three_four_reverse = 9999 }
-			any_country = { limit = { tag = THIS NOT = { three_four_reverse = 5 } } three_four_reverse = 9999 }
 			# carrier_folder
 			any_country = { limit = { tag = THIS NOT = { light_carrier_technology = 9 } } light_carrier_technology = 9999 }
 			any_country = { limit = { tag = THIS NOT = { light_carrier_technology = 9 } } light_carrier_technology = 9999 }

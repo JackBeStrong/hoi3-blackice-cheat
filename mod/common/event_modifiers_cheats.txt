@@ -1,0 +1,12 @@
+cheatunits = {
+	unit_recruitment_time = -100
+}
+
+cheatresearch = {
+	research_efficiency = 100
+}
+
+leadship1 = {
+	global_leadership_modifier = 5
+	leadership_gain = 3
+}

@@ -1,0 +1,224 @@
+single_engine_fighter_design                     max 12  !light_air | 
+cas_design                                       max 12  !light_air | 
+multirole_fighter_design                         max 12  !light_air | 
+cag_design                                       max 12  light_air,heavy_air | 
+twin_engine_fighter_design                       max 12  !light_air | 
+four_engine_bomber_design                        max 12  flag_tacs | 
+gasoline_engine_design                           max 6   gasoline_engine | 
+diesel_engine_design                             max 6   diesel_engine | 
+proximity_fuze                                   max 1   big_education_investment_flag,electronics_specialist_flag | 
+Luftwaffe_Infantry                               max 4   op_fall_blau | 
+commando_brigade_activation                      max 8   BlackICE | 
+air_commando_brigade_activation                  max 7   BlackICE | 
+self_sealing_fueltanks                           max 2   !light_air | 
+cockpit_armour                                   max 5   !light_air | 
+light_weight_construction                        max     light_air | 
+heavy_planes_construction                        max     light_air | 
+mg_cannon_combo                                  max 3   !light_air | 
+four_engine_bomber_crew_layout                   max 8   !flag_tacs | 
+large_bomb                                       max     heavy_air,light_air | 
+four_engine_bombbay                              max 7   !flag_tacs | 
+apds_ammo                                        max 3   apds_ammo_active | 
+welded_armour                                    max 8   welded_armour,!cast_armour | 
+cast_armour                                      max 8   cast_armour,!welded_armour | 
+casemate_vehicles                                max     casemate_vehicles_flag | 
+turreted_vehicles                                max     turreted_vehicles_flag | 
+main_battle_tank_technical_concept               max 2   tiger_tech_active,T_34_tech_active,sherman_tech | tag = ENG,tag = SOV,tag = GER
+main_battle_tank                                 max     BlackICE | 
+mot_HQ_tech                                      max 10  MilitaryAcademy | 
+mech_HQ_tech                                     max 10  MilitaryAcademy | 
+armor_HQ_tech                                    max 10  MilitaryAcademy | 
+mtn_HQ_tech                                      max 10  MilitaryAcademy | 
+marine_HQ_tech                                   max 10  MilitaryAcademy | 
+para_HQ_tech                                     max 10  MilitaryAcademy | 
+ss_HQ_tech                                       max 10  MilitaryAcademy,ss_starting,SS_junkerschulen,ss_ahistorical | 
+ss_mot_HQ_tech                                   max 10  SS_junkerschulen,ss_motorized_brigade_activation | 
+ss_mech_HQ_tech                                  max 10  SS_junkerschulen,ss_mechanized_brigade_activation | 
+ss_pz_HQ_tech                                    max 10  SS_junkerschulen,ss_armor_brigade_activation | 
+guard_HQ_tech                                    max 10  MilitaryAcademy,guards_infantry_brigade_activation | 
+guard_mot_HQ_tech                                max 10  MilitaryAcademy,guard_motorized_brigade_activation | 
+guard_mech_HQ_tech                               max 10  MilitaryAcademy,guard_mechanized_brigade_activation | 
+guard_armor_HQ_tech                              max 10  MilitaryAcademy,guard_armor_brigade_activation | 
+guard_para_HQ_tech                               max 10  MilitaryAcademy,guard_paratrooper_brigade_activation | 
+guard_shock_HQ_tech                              max 10  MilitaryAcademy,guards_infantry_brigade_activation | 
+air_HQ_tech                                      max 10  MilitaryAcademy | 
+infantry_increase                                max 3   Ordinamento_Pariani_Limitation | 
+special_forces_increase                          max 3   Ordinamento_Pariani_Limitation | 
+mobile_increase                                  max 3   Ordinamento_Pariani_Limitation | 
+SS_security_increase                             max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_infantry_increase                             max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_special_forces_increase                       max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_mobile_increase                               max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_armor_increase                                max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_recon_increase                                max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_artillery_increase                            max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_armorsupport_increase                         max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_aa_at_increase                                max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+SS_engineers_increase                            max 3   SS_Waffen_creation,ss_starting,ss_ahistorical | 
+NKVD_increase                                    max 3   sovietguards | 
+Guards_infantry_increase                         max 3   sovietguards | 
+Guards_special_forces_increase                   max 3   sovietguards | 
+Guards_mobile_increase                           max 3   sovietguards | 
+Guards_armor_increase                            max 3   sovietguards | 
+Guards_artillery_increase                        max 3   sovietguards | 
+SS_security_decrease                             max 3   SS_Waffen_creation,!no_SS | 
+SS_infantry_decrease                             max 3   SS_Waffen_creation,!no_SS | 
+SS_special_forces_decrease                       max 3   SS_Waffen_creation,!no_SS | 
+SS_mobile_decrease                               max 3   SS_Waffen_creation,!no_SS | 
+SS_armor_decrease                                max 3   SS_Waffen_creation,!no_SS | 
+SS_recon_decrease                                max 3   SS_Waffen_creation,!no_SS | 
+SS_artillery_decrease                            max 3   SS_Waffen_creation,!no_SS | 
+SS_armorsupport_decrease                         max 3   SS_Waffen_creation,!no_SS | 
+SS_aa_at_decrease                                max 3   SS_Waffen_creation,!no_SS | 
+SS_engineers_decrease                            max 3   SS_Waffen_creation,!no_SS | 
+NKVD_decrease                                    max 3   sovietguards | 
+Guards_infantry_decrease                         max 3   sovietguards | 
+Guards_special_forces_decrease                   max 3   sovietguards | 
+Guards_mobile_decrease                           max 3   sovietguards | 
+Guards_armor_decrease                            max 3   sovietguards | 
+Guards_artillery_decrease                        max 3   sovietguards | 
+radar                                            max 8   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+mechnical_computing_machine                      max 6   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+electronic_computing_machine                     max 5   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+decryption_machine                               max 6   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag,decryption_specialist_flag | 
+encryption_machine                               max 6   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag,decryption_specialist_flag | 
+land_based_radar                                 max 5   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+plane_airsearch_radar                            max 7   big_education_investment_flag,electronics_specialist_flag | 
+plane_navigation_radar                           max 7   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+small_ship_radar                                 max 4   big_education_investment_flag,electronics_specialist_flag | 
+big_ship_radar                                   max 4   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+medium_ship_radar                                max 4   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+jet_fighters_activation                          max 24  medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+jet_bombers_activation                           max 24  medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | faction = this
+jet_engine                                       max 6   medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | faction = this
+jet_engine_large                                 max 5   medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | faction = this
+engine_afterburner                               max     big_education_investment_flag,jet_specialist_flag | 
+jet_aerodynamics                                 max 5   medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+jet_airframe_speed                               max 5   medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+jet_airframe_lift                                max 5   medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+avionics                                         max 5   medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+pressurized_cockpit                              max     medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+ejection_seat                                    max     medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+pressure_suits                                   max 2   big_education_investment_flag,jet_specialist_flag | 
+subsonic_dev                                     max     medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+transonic_dev                                    max     big_education_investment_flag,jet_specialist_flag | 
+supersonic_dev                                   max     big_education_investment_flag,jet_specialist_flag | 
+hypersonic_dev                                   max     big_education_investment_flag,jet_specialist_flag | 
+destroyer_class                                  max 8   2nd_London_Treaty,LondonNavalTreaty | 
+light_naval_guns                                 max 12  !BlackICE | 
+small_warship_surface_radar                      max 11  big_education_investment_flag,electronics_specialist_flag | 
+small_warship_airsearch_radar                    max 10  big_education_investment_flag,electronics_specialist_flag | 
+hdfd_radio_dev                                   max 7   medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+hedgehog_dev                                     max 4   hedgehog_dev_active,medium_large_education_investment_flag,big_education_investment_flag,destroyer_specialist_flag | 
+asw_counter_measures                             max     medium_large_education_investment_flag,big_education_investment_flag,destroyer_specialist_flag | 
+lightcruiser_class                               max 6   2nd_London_Treaty,LondonNavalTreaty | 
+heavycruiser_class                               max 6   2nd_London_Treaty,LondonNavalTreaty | 
+mediumwarship_surface_radar                      max 11  medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+mediumwarship_airsearch_radar                    max 11  medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+battleship_class                                 max 6   2nd_London_Treaty,LondonNavalTreaty | 
+battlecruiser_class                              max 6   2nd_London_Treaty,LondonNavalTreaty | 
+pocket_battleship_activation                     max 6   allow_pocket_battleship_doctrine | 
+capitalship_armament                             max 9   !BlackICE | 
+super_heavy_battleship_technology                max 5   2nd_London_Treaty,LondonNavalTreaty,allow_early_SHBB | 
+largewarship_surface_radar                       max 12  medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+largewarship_air_detection_radar                 max 12  medium_large_education_investment_flag,big_education_investment_flag,electronics_specialist_flag | 
+Cemented_armor                                   max 1   cemented_armor | 
+Special_treatment_steel                          max 1   special_treatment_steel | 
+Vickers_steel                                    max 1   vickers_steel | 
+light_carrier_technology                         max 9   2nd_London_Treaty | 
+carrier_class                                    max 6   2nd_London_Treaty | 
+escort_carrier_technology                        max     2nd_London_Treaty | 
+carrier_deck_armour_optimisation                 max     allow_early_deck_armour | 
+coastal_submarine_class                          max 7   LondonNavalTreaty,2nd_London_Treaty | 
+submarine_class                                  max 11  LondonNavalTreaty,2nd_London_Treaty | 
+long_range_submarine_class                       max 8   LondonNavalTreaty,2nd_London_Treaty | 
+electro_submarine_class                          max 4   medium_large_education_investment_flag,big_education_investment_flag,submarine_specialist_flag | 
+nuclear_submarine_design                         max 4   big_education_investment_flag,submarine_specialist_flag | 
+air_independent_propulsion                       max     medium_large_education_investment_flag,big_education_investment_flag,submarine_specialist_flag | 
+submarine_torpedo_auto_loading_system            max     medium_large_education_investment_flag,big_education_investment_flag,submarine_specialist_flag | 
+submarine_electroboat                            max 4   medium_large_education_investment_flag,big_education_investment_flag,submarine_specialist_flag,allow_early_electro | 
+submarine_radar                                  max 5   big_education_investment_flag,electronics_specialist_flag | 
+three_three                                      max 5   turret_choice | 
+three_three_reverse                              max 5   turret_choice | 
+four_two                                         max 5   turret_choice | 
+four_two_reverse                                 max 5   turret_choice | 
+four_three                                       max 5   turret_choice | 
+four_three_reverse                               max 5   turret_choice | 
+three_four                                       max 5   turret_choice | 
+three_four_reverse                               max 5   turret_choice | 
+five_two                                         max 5   turret_choice | 
+five_two_reverse                                 max 5   turret_choice | 
+rocket_engine                                    max     big_education_investment_flag,rocket_specialist_flag | 
+theorical_jet_engine                             max     medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | 
+jetengine_research                               max 4   medium_large_education_investment_flag,big_education_investment_flag,jet_specialist_flag | faction = this
+strategic_rocket_development                     max     big_education_investment_flag,rocket_specialist_flag | 
+flyingbomb_development                           max     big_education_investment_flag,rocket_specialist_flag | 
+flyingrocket_development                         max     big_education_investment_flag,rocket_specialist_flag | 
+strategicrocket_engine                           max 12  big_education_investment_flag,rocket_specialist_flag | 
+strategicrocket_warhead                          max 12  big_education_investment_flag,rocket_specialist_flag | 
+strategicrocket_structure                        max 12  big_education_investment_flag,rocket_specialist_flag | 
+radar_guided_bomb                                max 12  medium_large_education_investment_flag,big_education_investment_flag | 
+graphite_reactor                                 max      | has_country_modifier = Heavy_committment,has_country_modifier = light_committment
+heavy_water_reactor                              max      | has_country_modifier = Heavy_committment,has_country_modifier = light_committment
+gun_type_fission_weapon_design_plutonium         max      | has_country_modifier = Heavy_committment,has_country_modifier = light_committment
+gun_type_fission_weapon_design_uranium           max      | has_country_modifier = Heavy_committment,has_country_modifier = light_committment
+Implosion_type_weapon_design                     max      | has_country_modifier = Heavy_committment,has_country_modifier = light_committment
+fuses_development                                max      | has_country_modifier = Heavy_committment,has_country_modifier = light_committment
+a_bomb_gun_type                                  max 6    | has_country_modifier = Heavy_committment,has_country_modifier = light_committment
+a_bomb_implosion_type                            max 10   | has_country_modifier = Heavy_committment,has_country_modifier = light_committment
+political_indoctrination                         max 6    | 
+political_integration                            max 6    | 
+deep_battle_doctrine                             max     deep_battle_doctrine | 
+artillery_support                                max 5   no_strategic_doctrine | faction = comintern
+division_HQ_DB                                   max 6   no_strategic_doctrine | faction = comintern
+mechanised_exploitation                          max 6   no_strategic_doctrine | faction = comintern
+air_support                                      max 5   no_strategic_doctrine | faction = comintern
+defense_in_depth                                 max 6   no_strategic_doctrine | faction = comintern
+delay_and_diversion                              max 5   no_strategic_doctrine | faction = comintern
+supply_organisation_DB                           max 5   no_strategic_doctrine | faction = comintern
+grand_battle_plan                                max     grand_battle_plan | 
+assault_concentration                            max 10  no_strategic_doctrine | faction = allies
+attrition_warfare                                max 6   no_strategic_doctrine | faction = allies
+artillery_flexiblity                             max 6   no_strategic_doctrine | faction = allies
+time_on_target                                   max 3   no_strategic_doctrine | faction = allies
+superior_firepower                               max     superior_firepower | 
+mobile_defense                                   max 6   USA_doctrine_pick,no_strategic_doctrine | 
+mechanised_offensive                             max 6   USA_doctrine_pick,no_strategic_doctrine | 
+combined_arms_defence                            max 6   USA_doctrine_pick,no_strategic_doctrine | 
+integrated_support                               max 9   USA_doctrine_pick,no_strategic_doctrine | 
+artillery_preparation_and_training               max 6   USA_doctrine_pick,no_strategic_doctrine | 
+pre_calculating_artillery                        max 10  USA_doctrine_pick,no_strategic_doctrine | 
+time_on_target_SF                                max 3   USA_doctrine_pick,no_strategic_doctrine | 
+brigade_command_structure_SF                     max 6   USA_doctrine_pick,no_strategic_doctrine | 
+division_HQ_SF                                   max 8   USA_doctrine_pick,no_strategic_doctrine | 
+blitzkrieg                                       max     blitzkrieg | 
+armored_spearhead                                max 6   no_strategic_doctrine | faction = axis
+stormtrooper_tactics                             max 4   no_strategic_doctrine | faction = axis
+infiltration                                     max 4   no_strategic_doctrine | faction = axis
+brigade_command_structure_BK                     max 6   no_strategic_doctrine | faction = axis
+divisonal_command_structure_BK                   max 8   no_strategic_doctrine | faction = axis
+elastic_defense                                  max 6   no_strategic_doctrine | faction = axis
+ground_attack_focus                              max 10  no_strategic_doctrine | faction = axis
+tactical_attack_focus                            max 8   no_strategic_doctrine | faction = axis
+tank_crews_training                              max 4   no_strategic_doctrine | faction = axis
+night_combat_training                            max 3   allow_night_combat_training | 
+mustang_tech                                     max     mustang_tech_active | 
+Garand_tech                                      max     Garand_tech_active | 
+sherman_tech                                     max     sherman_tech_active | 
+ppsh_pps_tech                                    max     ppsh_41_pps_43_tech_active | 
+katyusha_tech                                    max     katyusha_tech_active | 
+mosquito_tech                                    max     mosquito_tech_active | 
+RP_3_tech                                        max     RP3_tech_active | 
+crocodile_tech                                   max     crocodile_tech_active | 
+assault_rifles                                   max     assault_rifles_tech_active | faction = comintern
+tiger_tech                                       max 2   tiger_tech_active | 
+long_lance_tech                                  max     long_lance_tech_active | 
+charb1_tech                                      max     charb1_tech_active | 
+alpini_tech                                      max     alpini_tech_active | 
+nimrod_tech                                      max     nimrod_tech_active | 
+Fletcher_class_tech                              max     Fletcher_class_active | 
+Independence_class_tech                          max     Independence_class_active | 
+QF17pdr_tech                                     max     QF17pdr_tech_active | 
+SAS_tech                                         max     SAS_tech_active | 
+motobomba_tech                                   max     motobomba_tech_active,medium_large_education_investment_flag,big_education_investment_flag,mediumplane_specialist_flag | 
+CHC_light_units_tech                             max     CHC_LINF_tech_active | 

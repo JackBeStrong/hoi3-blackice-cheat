@@ -1,0 +1,631 @@
+
+== air_doctrine_folder (33) ==
+  fighter_pilot_training                             max 12  1918
+  fighter_groundcrew_training                        max 12  1918
+  interception_tactics                               max 15  1918
+  WWI_dogfights                                      max 15  1918
+  Fighter_interceptor_role                           max 12  1918
+  fighter_ground_control                             max 12  1918
+  bomber_targerting_focus                            max 12  1918
+  fighter_targerting_focus                           max 12  1918
+  cas_pilot_training                                 max 12  1918
+  cas_groundcrew_training                            max 12  1918
+  ground_attack_tactics                              max 15  1918
+  forward_air_control                                max 12  1918
+  battlefield_interdiction                           max 12  1918
+  tac_pilot_training                                 max 12  1918
+  tac_groundcrew_training                            max 12  1918
+  interdiction_tactics                               max 15  1918
+  logistical_strike_tactics                          max 15  1918
+  installation_strike_tactics                        max 15  1918
+  airbase_strike_tactics                             max 15  1918
+  tactical_air_command                               max 12  1918
+  nav_pilot_training                                 max 12  1918
+  nav_groundcrew_training                            max 12  1918
+  portstrike_tactics                                 max 15  1918
+  navalstrike_tactics                                max 15  1918
+  naval_air_targeting                                max 15  1918
+  naval_tactics                                      max 10  1918
+  heavy_bomber_pilot_training                        max 12  1918
+  heavy_bomber_groundcrew_training                   max 12  1918
+  strategic_bombardment_tactics                      max 15  1918
+  airborne_assault_tactics                           max 12  1918
+  strategic_air_command                              max 12  1918
+  jet_groundcrew_training                            max 12  1942
+  jet_pilot_training                                 max 12  1942
+
+== aircraft_folder (21) ==
+  basic_aircraft_design                              max ?   1918
+  recon_aircraft_design                              max 4   1935
+  helicopters                                        max ?   1945
+  single_engine_airframe                             max 12  1935
+  small_fueltank                                     max 12  1935
+  single_engine_aircraft_armament                    max 12  1935
+  light_bomber_design                                max 12  1936
+  twin_engine_bomber_design                          max 12  1936
+  naval_bomber_design                                max 12  1935
+  twin_engine_transport_plane_design                 max 4   1936
+  Flying_boat_activation                             max 12  1935
+  medium_fueltank                                    max 12  1935
+  twin_engine_airframe                               max 12  1935
+  twin_engine_aircraft_armament                      max 12  1937
+  four_engine_transport_plane_design                 max 4   1937
+  air_refueling_plane_design                         max ?   1944
+  four_engine_airframe                               max 12  1935
+  large_fueltank                                     max 12  1935
+  strategic_bomber_armament                          max 12  1935
+  aeroengine                                         max 12  1935
+  glider_activation                                  max ?   1936
+
+== aircraftsystems_folder (18) ==
+  basic_single_engine_airframe                       max ?   1931
+  basic_twin_engine_airframe                         max ?   1933
+  basic_four_engine_airframe                         max ?   1935
+  basic_small_fueltank                               max ?   1932
+  basic_medium_fueltank                              max ?   1932
+  basic_aeroengine                                   max ?   1934
+  drop_tanks                                         max 3   1940
+  in_air_refueling                                   max ?   1948
+  contr_pitch_prop                                   max ?   1936
+  engine_boost                                       max ?   1938
+  air_cooling_sys                                    max ?   1942
+  retractable_undercarriage                          max ?   1935
+  drop_shaped_cockpit                                max ?   1942
+  aerodynamics                                       max ?   1935
+  aerodyn_fuselage                                   max 6   1937
+  aerodyn_wings                                      max 6   1937
+  tailhook                                           max ?   1920
+  folding_wings                                      max 2   1930
+
+== antitank_folder (11) ==
+  artillery_support_gun_design                       max 7   1937
+  small_calibre_gun_design                           max 9   1934
+  medium_velocity_gun                                max 7   1937
+  high_velocity_gun                                  max 6   1942
+  basic_at_ammo                                      max ?   1936
+  APC_ammo                                           max 4   1938
+  heat_ammo                                          max 4   1942
+  APCBC_ammo                                         max 5   1943
+  AA_AT_Rotation                                     max 4   1937
+  high_density_alloys                                max 4   1936
+  munroes_effect                                     max ?   1938
+
+== armament_folder (15) ==
+  basic_aircraft_machinegun                          max ?   1930
+  sync_machinegun                                    max ?   1930
+  mg_focus                                           max 12  1931
+  wing_guns                                          max ?   1934
+  auto_cannons                                       max ?   1938
+  ammo_capacity                                      max 8   1938
+  gun_turrets                                        max 8   1938
+  twin_engine_bomber_crew_layout                     max 6   1938
+  twin_engine_gunner_pos                             max 9   1935
+  twin_engine_gun_strength                           max 7   1935
+  four_engine_gunner_pos                             max 7   1939
+  four_engine_gunner_strength                        max 7   1936
+  advanced_aircraft_development                      max 6   1936
+  climb_rate_focus                                   max ?   1942
+  single_engine_man_focus                            max ?   1942
+
+== armour_folder (15) ==
+  infantry_tank_design                               max 9   1934
+  armored_car_design                                 max 15  1935
+  light_armor_brigade_design                         max 15  1935
+  armor_brigade_design                               max 14  1937
+  heavy_armor_brigade_design                         max 8   1937
+  super_heavy_tank_design                            max 4   1944
+  tank_destroyer_brigade_activation                  max 9   1935
+  medium_tank_destroyer_brigade_activation           max 9   1942
+  heavy_tank_destroyer_brigade_activation            max 8   1943
+  assault_gun_brigade_activation                     max 12  1939
+  heavy_assault_gun_brigade_activation               max 8   1943
+  amph_armour_brigade_activation                     max 6   1940
+  tank_chassis_design                                max 9   1934
+  advanced_tank_chassis_design                       max 6   1940
+  light_armor_recon_activation                       max 1   1942
+
+== armourII_folder (14) ==
+  tank_optics                                        max 6   1941
+  turrent_size                                       max ?   1937
+  wet_ammo_stowage                                   max ?   1942
+  anti_personel                                      max ?   1942
+  armor_alloy                                        max 2   1942
+  armor_thickness                                    max 8   1936
+  riveted_armour                                     max 6   1918
+  armor_plate_design                                 max 11  1940
+  interlocked_armour                                 max 5   1944
+  improvised_armour                                  max 6   1918
+  spaced_armour                                      max 3   1943
+  armor_sloped_design                                max 2   1942
+  main_battle_tank_doctrinal_concept                 max 1   1944
+  main_battle_tank_prototype                         max 2   1945
+
+== artillery_folder (22) ==
+  artillery_activation                               max 10  1918
+  heavy_artillery_activation                         max 6   1918
+  Artillery_motorization                             max 6   1936
+  art_barrel_ammo                                    max 10  1918
+  gun_carriage                                       max 10  1918
+  range_finding                                      max 10  1918
+  pack_artillery_brigade_activation                  max ?   1939
+  airborne_artillery_brigade_activation              max ?   1941
+  rocket_art                                         max ?   1939
+  rocket_art_ammo                                    max 6   1939
+  sp_artillery_brigade_design                        max 12  1939
+  sp_rct_art_brigade_design                          max ?   1940
+  sp_anti_air_design                                 max ?   1941
+  AFV_AA_defense                                     max 6   1938
+  Heavy_artillery_emplacement                        max ?   1942
+  heavy_aa_guns                                      max 12  1918
+  air_defense_network                                max 4   1939
+  Artillery_fire_control_technics_dev                max ?   1943
+  tremendous_firepower_dev                           max 2   1944
+  aa_ammo                                            max 9   1918
+  light_artillery_transport                          max 8   1937
+  heavy_artillery_transport                          max 6   1936
+
+== avionics_folder (13) ==
+  iff_transponder                                    max ?   1941
+  night_equipment                                    max ?   1943
+  reflector_sight                                    max ?   1935
+  gyro_sight                                         max ?   1940
+  adv_gyroscopic_sight                               max ?   1944
+  headsup_display                                    max 4   1950
+  bombing_sight                                      max 6   1937
+  small_airsearch_radar                              max 7   1940
+  medium_airsearch_radar                             max 7   1940
+  large_airsearch_radar                              max 7   1940
+  small_navagation_radar                             max 7   1940
+  medium_navagation_radar                            max 7   1940
+  large_navagation_radar                             max 7   1940
+
+== blitzkrieg_folder (11) ==
+  pakfront                                           max 6   1942
+  panzerkeil                                         max 6   1942
+  schwerpunkt                                        max 6   1918
+  kesselschlacht                                     max 5   1936
+  Auftragstaktik                                     max 5   1937
+  air_liason                                         max 10  1936
+  close_air_support                                  max 7   1936
+  tactical_air_support                               max 8   1936
+  advanced_training_tech                             max 8   1936
+  kampfgruppe                                        max 4   1938
+  Corps_command_structure_BK                         max 6   1930
+
+== capitalship_folder (18) ==
+  battleship_technology                              max 3   1918
+  battlecruiser_technology                           max 3   1918
+  capitalship_armament_AP_ammo                       max 7   1918
+  capitalship_armament_HE_ammo                       max 10  1918
+  capitalship_secondary                              max 9   1918
+  capital_ship_screws_optimisation                   max 9   1918
+  capital_ship_rudder_optimisation                   max 9   1918
+  capital_ship_hull_shape_optimisation               max 9   1918
+  battlecruiser_armour_thickness                     max 9   1918
+  battleship_armour_thickness                        max 9   1918
+  super_heavy_battleship_armour_thickness            max 6   1940
+  capital_ship_vertical_protection                   max 9   1918
+  capital_ship_horizontal_protection                 max 9   1918
+  capital_ship_torpedo_protection                    max 9   1918
+  capital_ship_bulkheads_thickness                   max 9   1918
+  fast_battleship                                    max ?   1937
+  capital_ship_light_anti_air_artillery              max 8   1934
+  capital_ship_heavy_anti_air_artillery              max 5   1936
+
+== capitalship_II_folder (8) ==
+  capital_ship_engine                                max 9   1918
+  capital_ship_boilers                               max 9   1918
+  capital_ship_turbines                              max 9   1918
+  capitalship_damage_control                         max 7   1918
+  fire_control_computer                              max 7   1918
+  AAA_control_computer                               max 7   1938
+  carrier_damage_control                             max 7   1918
+  dual_purpose_guns                                  max 5   1933
+
+== carrier_folder (23) ==
+  carrier_technology                                 max 3   1918
+  carrier_light_anti_air_artillery                   max 8   1934
+  carrier_heavy_anti_air_artillery                   max 6   1936
+  carrier_screws_optimisation                        max 9   1918
+  carrier_rudder_optimisation                        max 9   1918
+  carrier_hull_shape_optimisation                    max 9   1918
+  carrier_armour_thickness                           max 9   1918
+  light_carrier_armour_thickness                     max 9   1918
+  carrier_vertical_protection                        max 9   1918
+  carrier_horizontal_protection                      max 9   1918
+  carrier_torpedo_protection                         max 9   1918
+  carrier_bulkheads_thickness                        max 9   1918
+  carrier_hanger                                     max 9   1918
+  seaplane_tender_technology                         max ?   1910
+  carrier_flight_deck_optimisation                   max ?   1944
+  cag_fighter                                        max 6   1936
+  cag_bomber                                         max 6   1936
+  cag_torpedo                                        max 6   1936
+  off_center_elevators                               max ?   1939
+  carrier_catapults                                  max 3   1936
+  carrier_safety_procedures                          max 10  1941
+  double_hangar                                      max 1   1932
+  deck_park                                          max ?   1942
+
+== command_structure_folder (9) ==
+  brigade_command_structure                          max 6   1918
+  divisonal_command_structure                        max 12  1918
+  Corps_command_structure                            max 6   1930
+  army_command_structure                             max 6   1930
+  armygroup_command_structure                        max 5   1936
+  supreme_command_coordination                       max 4   1939
+  interservice_HQ_structure                          max 4   1938
+  battlecommander_chance                             max 6   1937
+  naval_HQ_tech                                      max 10  1937
+
+== construction_folder (22) ==
+  road_highway                                       max 12  1936
+  railway                                            max 12  1936
+  seaport                                            max 12  1936
+  airport                                            max 12  1936
+  construction_engineering                           max ?   1918
+  industry_tech                                      max 6   1918
+  heavy_industry_tech                                max 14  1936
+  agriculture                                        max 24  1918
+  advanced_construction_engineering                  max ?   1920
+  land_defence_engineering                           max ?   1925
+  adv_land_defence_engineering                       max ?   1930
+  airfield_construction                              max ?   1930
+  expand_airbases                                    max ?   1938
+  Hangar_Maintenance                                 max ?   1939
+  hardended_airstrip                                 max ?   1940
+  control_tower                                      max ?   1941
+  port_construction                                  max ?   1925
+  coastal_defence_engineering                        max ?   1930
+  adv_coastal_defence_engineering                    max ?   1931
+  drydock_construction                               max ?   1930
+  basing                                             max 12  1937
+  installation_security                              max 3   1938
+
+== cruiser_folder (22) ==
+  lightcruiser_technology                            max 3   1918
+  anti_air_cruiser_activation                        max ?   1937
+  heavycruiser_technology                            max 3   1918
+  heavy_cruiser_naval_guns                           max 9   1918
+  light_cruiser_naval_guns                           max 9   1918
+  cruiser_naval_guns_AP_ammo                         max 8   1918
+  cruiser_naval_guns_HE_ammo                         max 8   1918
+  cruiser_naval_guns_autoloader                      max 3   1945
+  cruiser_engine_and_boilers                         max 9   1918
+  cruiser_screws_and_rudder_optimisation             max 9   1918
+  cruiser_hull_shape_optimisation                    max 9   1918
+  lightcruiser_armour_thickness                      max 12  1918
+  heavy_cruiser_armour_thickness                     max 12  1918
+  cruiser_bulkheads_thickness                        max 12  1918
+  cruiser_horizontal_protection_layout               max 12  1918
+  cruiser_vertical_protection_layout                 max 12  1918
+  cruiser_damage_control                             max 7   1918
+  cruiser_fire_control_computer                      max 7   1918
+  cruiser_AAA_control_computer                       max 7   1937
+  cruiser_light_anti_air_artillery                   max 7   1932
+  cruiser_anti_air_artillery_focus                   max 3   1943
+  cruiser_heavy_anti_air_artillery                   max 6   1936
+
+== deep_battle_folder (14) ==
+  cavalry_pursuit_tactics                            max 3   1914
+  banzai                                             max 5   1937
+  sniper_tactics                                     max 3   1939
+  first_echelon                                      max 12  1933
+  human_wave                                         max 8   1933
+  initial_breakthrough                               max 8   1933
+  shock_troops                                       max 5   1933
+  second_echelon                                     max 12  1933
+  paratrooper_support                                max 5   1933
+  army_HQ_DB                                         max 6   1933
+  corps_HQ_DB                                        max 6   1933
+  third_echelon                                      max 12  1933
+  army_group_HQ_DB                                   max 5   1937
+  theater_HQ_DB                                      max 4   1939
+
+== division_decrease_folder (10) ==
+  militia_decrease                                   max 3   1936
+  infantry_decrease                                  max 3   1936
+  special_forces_decrease                            max 3   1936
+  mobile_decrease                                    max 3   1936
+  armor_decrease                                     max 3   1936
+  recon_decrease                                     max 3   1936
+  artillery_decrease                                 max 3   1936
+  armorsupport_decrease                              max 3   1936
+  aa_at_decrease                                     max 3   1936
+  engineers_decrease                                 max 3   1936
+
+== division_increase_folder (7) ==
+  militia_increase                                   max 3   1936
+  armor_increase                                     max 3   1936
+  recon_increase                                     max 3   1936
+  artillery_increase                                 max 3   1936
+  armorsupport_increase                              max 3   1936
+  aa_at_increase                                     max 3   1936
+  engineers_increase                                 max 3   1936
+
+== grand_battle_plan_folder (14) ==
+  ww1_warfare                                        max 5   1914
+  artillery_barrage                                  max 6   1918
+  mass_assault                                       max 5   1918
+  strongpoint_tactics                                max 5   1918
+  mg_mortar_support                                  max 7   1935
+  central_planning                                   max 6   1918
+  divisonal_command_structure_grand_battle           max 10  1918
+  Corps_command_structure_grand_battle               max 6   1930
+  army_command_structure_grand_battle                max 6   1930
+  armygroup_command_structure_grand_battle           max 5   1936
+  supreme_command_coordination_grand_battle          max 4   1936
+  logistic_organisation                              max 6   1936
+  infrastructure_and_transport_development           max 6   1936
+  special_ops                                        max 5   1936
+
+== industry_folder (16) ==
+  industral_production                               max 11  1918
+  industral_efficiency                               max 11  1918
+  oil_to_coal_conversion                             max 12  1936
+  supply_production                                  max 12  1918
+  oil_refining                                       max 12  1936
+  steel_production                                   max 12  1936
+  raremetal_refinning_techniques                     max 12  1936
+  coal_processing_technologies                       max 12  1936
+  steel_casting_capability                           max 12  1918
+  steel_electro_welding_technology                   max 12  1918
+  heavy_armor_forging                                max 12  1918
+  fuel_conservation                                  max 3   1942
+  octane_conservation                                max 3   1942
+  advanced_resource_substitution                     max ?   1941
+  ammo_production                                    max 12  1918
+  food_rations_production                            max 12  1918
+
+== infantry_folder (27) ==
+  infantry_activation                                max 10  1918
+  light_infantry_brigade_activation                  max 10  1918
+  mountain_infantry                                  max ?   1937
+  semi_motorization                                  max ?   1935
+  motorized_infantry                                 max ?   1937
+  mechanised_infantry                                max ?   1941
+  Vehicle_reliability                                max 9   1935
+  Support_battalions_motorization                    max 6   1937
+  intergrated_AFV_battalions                         max ?   1940
+  cavalry_motorization                               max ?   1939
+  smallarms_technology                               max 10  1918
+  infantry_support                                   max 10  1918
+  infantry_guns                                      max 10  1918
+  infantry_at                                        max 10  1918
+  engineer_brigade_activation                        max 6   1936
+  engineer_bridging_equipment                        max 7   1939
+  engineer_assault_equipment                         max 7   1939
+  armored_engineers_brigade_activation               max ?   1941
+  improved_police_brigade                            max 7   1936
+  camo_designs                                       max 3   1936
+  body_armour                                        max ?   1936
+  motorcycle_recon_brigade_activation                max ?   1936
+  defense_work_designs                               max 7   1936
+  garrison_deployment                                max ?   1936
+  emergency_recruitment_legislation                  max 4   1937
+  officer_recruitment_program                        max 3   1939
+  Panzerfaust_Bazooka_AT_Tech                        max ?   1942
+
+== jet_folder (1) ==
+  rocket_interceptor_tech                            max ?   1941
+
+== land_doctrine_folder (32) ==
+  infantry_integration                               max 8   1918
+  infantry_training                                  max 16  1918
+  infantry_command_and_control                       max 16  1918
+  mobile_integration                                 max 8   1936
+  mobile_training                                    max 16  1918
+  mobile_command_and_control                         max 16  1918
+  artillery_integration                              max 8   1918
+  artillery_training                                 max 16  1918
+  artillery_command_and_control                      max 16  1918
+  armor_integration                                  max 8   1936
+  armor_training                                     max 16  1918
+  armor_command_and_control                          max 16  1918
+  direct_fire_integration                            max 8   1936
+  direct_fire_training                               max 16  1918
+  direct_fire_command_and_control                    max 16  1918
+  recon_units_integration                            max 8   1936
+  recon_coordination                                 max 16  1918
+  recon_communication                                max 16  1918
+  combined_arms_integration                          max 8   1940
+  interservice_coordination                          max 10  1940
+  interservice_communication                         max 10  1940
+  partisan_suppression                               max 12  1918
+  military_police                                    max 16  1918
+  resistance_support                                 max 12  1918
+  homefront_coordination                             max 5   1939
+  special_forces_integration                         max 12  1936
+  amphibious_training                                max 14  1918
+  airborne_training                                  max 14  1918
+  mountain_training                                  max 14  1918
+  jungle_training                                    max 9   1918
+  commando_training                                  max 9   1918
+  desert_training                                    max 9   1918
+
+== nation_folder (17) ==
+  basic_education                                    max 24  1924
+  university                                         max 24  1935
+  civil_medicine                                     max 12  1900
+  combat_medicine                                    max 12  1938
+  first_aid                                          max 12  1938
+  medical_evacuation                                 max ?   1946
+  pilot_rescue                                       max 3   1946
+  supply_transportation                              max 12  1936
+  supply_organisation                                max 12  1936
+  civil_defence                                      max 12  1936
+  logistical_warfare_focus                           max 6   1940
+  home_front_focus                                   max 6   1939
+  secretary_of_public_information_and_education      max 5   1936
+  mass_events                                        max 6   1936
+  broadcasting                                       max 6   1936
+  monumental_architecture                            max 6   1936
+  gigant_infrastructure_projects                     max 4   1936
+
+== naval_doctrine_folder (24) ==
+  fleet_auxiliary_carrier_doctrine                   max ?   1936
+  light_cruiser_escort_role                          max 8   1937
+  carrier_group_doctrine                             max 8   1937
+  light_cruiser_crew_training                        max 8   1936
+  carrier_crew_training                              max 8   1936
+  carrier_task_force                                 max ?   1941
+  radar_training                                     max 7   1939
+  sea_lane_defence                                   max ?   1935
+  destroyer_escort_role                              max 8   1937
+  destroyer_escort_specialisation                    max 5   1938
+  battlefleet_concentration_doctrine                 max 8   1937
+  capital_raiders                                    max ?   1936
+  destroyer_crew_training                            max 8   1936
+  battleship_crew_training                           max 8   1936
+  commerce_defence                                   max 6   1941
+  fire_control_system_training                       max 14  1937
+  commander_decision_making                          max 13  1937
+  fleet_auxiliary_submarine_doctrine                 max ?   1936
+  trade_interdiction_submarine_doctrine              max 7   1939
+  cruiser_warfare                                    max 8   1937
+  submarine_crew_training                            max 8   1937
+  cruiser_crew_training                              max 8   1936
+  unrestricted_submarine_warfare_doctrine            max ?   1941
+  spotting                                           max 8   1937
+
+== payload_folder (16) ==
+  basic_bomb                                         max ?   1930
+  small_bomb                                         max ?   1934
+  medium_bomb                                        max ?   1936
+  bunker_bomb                                        max ?   1944
+  dam_bust_bomb                                      max ?   1942
+  tallboy_bomb                                       max ?   1943
+  grandslam_bomb                                     max ?   1944
+  incendiary_bomb                                    max ?   1936
+  cluster_bomb                                       max ?   1939
+  aerial_mines                                       max ?   1938
+  two_engine_bombbay                                 max 8   1936
+  at_ordnance                                        max 2   1943
+  AA_ordnance                                        max ?   1942
+  Rocket_ordnance                                    max ?   1942
+  air_launched_torpedoes                             max 6   1937
+  cargo_hold                                         max 5   1940
+
+== secretweapon_folder (10) ==
+  rocket_tests                                       max ?   1936
+  nuclear_fission_theory                             max 1   1938
+  atom_bomb_proposal                                 max 1   1940
+  plutonium_discovery                                max 1   1940
+  isotope_seperation                                 max ?   1939
+  thermal_diffusion                                  max 5   1940
+  gaseous_diffusion                                  max 5   1940
+  calutron                                           max 4   1941
+  experimental_nuclear_reactor                       max ?   1941
+  heavy_water_production                             max ?   1940
+
+== smallship_folder (14) ==
+  destroyer_technology                               max 4   1918
+  frigate_class                                      max 7   1939
+  torpedo_boat_class                                 max 11  1918
+  motor_torpedo_boat_class                           max 11  1918
+  light_warship_engine                               max 12  1918
+  light_warship_screws_rudder_optimisation           max 8   1935
+  hydrophone_dev                                     max 11  1918
+  smallwarship_asw                                   max 6   1935
+  smallwarship_damage_control                        max 7   1918
+  smallwarship_fire_control_computer                 max 7   1918
+  smallwarship_AAA_control_computer                  max 6   1940
+  depth_charge                                       max 7   1918
+  heavy_antiaircraft_light_ships                     max 6   1935
+  light_antiaircraft_light_ships                     max 6   1935
+
+== special_forces_folder (19) ==
+  special_forces_upgrade                             max 10  1918
+  marine_infantry                                    max ?   1937
+  paratrooper_infantry                               max ?   1938
+  ski_brigade_activation                             max ?   1940
+  desert_warfare_equipment                           max ?   1940
+  jungle_warfare_equipment                           max ?   1941
+  mountain_warfare_equipment                         max ?   1937
+  artic_warfare_equipment                            max ?   1940
+  amphibious_warfare_equipment                       max ?   1938
+  airborne_warfare_equipment                         max ?   1941
+  airlanding_infantry_brigade_activation             max ?   1941
+  Tenacious_defense                                  max ?   1944
+  machine_gun_doctrine                               max 8   1917
+  urban_Fighting_Equipment_and_Training              max ?   1940
+  asymmetric_warfare_dev                             max ?   1939
+  amphibious_invasion_focus                          max 2   1940
+  extreme_terrain_combat_tactics                     max 4   1940
+  airbourne_warfare_research                         max 6   1941
+  midget_submarine_activation                        max ?   1940
+
+== submarine_folder (24) ==
+  submarine_technology                               max ?   1918
+  submarine_engine                                   max 12  1918
+  submarine_hull                                     max 12  1918
+  submarine_crew_berthing                            max 12  1918
+  submarine_torpedo_tubes                            max 8   1918
+  submarine_periscope                                max 8   1918
+  submarine_battery                                  max 8   1918
+  submarine_antiaircraft                             max 6   1918
+  streamlined_hull                                   max ?   1944
+  submarine_sonar                                    max 6   1924
+  torpedo_upgrade                                    max 6   1918
+  submarine_torpedo                                  max 6   1918
+  torpedo_warhead                                    max 6   1918
+  torpedo_targeting                                  max 6   1918
+  torpedo_propulsion                                 max 6   1918
+  submarine_fire_control                             max 6   1935
+  submarine_damage_control                           max 7   1930
+  electric_powered_torpedo                           max ?   1943
+  submarine_snorkel                                  max 3   1941
+  submarine_large_battery_capacity                   max ?   1940
+  submarine_thick_pressure_hull                      max ?   1941
+  submarine_air_conditioning                         max ?   1942
+  submarine_silent_running_drive                     max ?   1942
+  milch_submarine                                    max ?   1940
+
+== superior_firepower_folder (9) ==
+  superior_strength                                  max 3   1918
+  artillery_firepower_focus                          max 5   1938
+  infantry_firepower_focus                           max 5   1937
+  air_support_focus                                  max 5   1939
+  stand_off                                          max 6   1935
+  tactical_command                                   max 3   1935
+  corps_HQ_SF                                        max 6   1930
+  army_HQ_SF                                         max 3   1930
+  rct                                                max 4   1940
+
+== theory_folder (11) ==
+  electronic_mechanical_egineering                   max ?   1926
+  radio_technology                                   max ?   1930
+  radio_detection_equipment                          max ?   1934
+  radio                                              max 9   1934
+  census_tabulation_machine                          max ?   1936
+  infantry_radios                                    max 8   1936
+  tank_radios                                        max 8   1937
+  air_radios                                         max 8   1938
+  active_sonar                                       max ?   1940
+  active_sonar_ship                                  max ?   1941
+  active_sonar_sub                                   max ?   1942
+
+== transports_folder (20) ==
+  transport_ship_activation                          max ?   1936
+  transport_ship_hull                                max 9   1935
+  transport_ship_engine                              max 9   1935
+  amphibious_invasion_craft                          max 3   1937
+  LSI                                                max 6   1940
+  LCT                                                max 6   1941
+  LST                                                max 6   1942
+  amphibious_invasion_tactics                        max 6   1939
+  davit_cargo_net_deployment                         max 3   1940
+  direct_beaching                                    max ?   1942
+  piggyback_method                                   max ?   1943
+  amphibious_ship_defenses                           max 6   1940
+  amphibious_bow_ramps                               max 4   1939
+  LCTR                                               max 3   1942
+  amphibious_armor_plating                           max 4   1940
+  amphibious_twin_engines                            max 7   1938
+  amphibious_auxiliary_fuel_tanks                    max 6   1940
+  amphibious_structural_improvements                 max 8   1937
+  fleet_oilers                                       max 6   1936
+  naval_underway_replenishment                       max 6   1937
+
+== unit_training_folder (1) ==
+  T_34_tech                                          max ?   1941

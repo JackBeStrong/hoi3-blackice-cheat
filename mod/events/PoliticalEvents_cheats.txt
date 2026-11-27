@@ -72,6 +72,55 @@ duration = 2000
 }
 }
 
+# Cheat: faster ship building (BlackICE 15.1). Console: event 9995
+# Every ship tech level adds about +1% to ship build time and IC (built into the game).
+# These permanent modifiers cut naval build time to offset that. Pick again to switch; "Remove" clears it.
+# Build time only: IC per day stays the same, so total IC spent goes down with the time.
+country_event = {
+
+	id = 9995
+
+	is_triggered_only = yes
+
+	title = "Shipyard Reform"
+	desc = "Cheats: naval build time"
+	picture = "shipyard"
+
+	option = {
+		name = "Naval build time -50%"
+		remove_country_modifier = ship_build_70
+		remove_country_modifier = ship_build_85
+		add_country_modifier = {
+			name = "ship_build_50"
+			duration = -1
+		}
+	}
+	option = {
+		name = "Naval build time -70%"
+		remove_country_modifier = ship_build_50
+		remove_country_modifier = ship_build_85
+		add_country_modifier = {
+			name = "ship_build_70"
+			duration = -1
+		}
+	}
+	option = {
+		name = "Naval build time -85%"
+		remove_country_modifier = ship_build_50
+		remove_country_modifier = ship_build_70
+		add_country_modifier = {
+			name = "ship_build_85"
+			duration = -1
+		}
+	}
+	option = {
+		name = "Remove"
+		remove_country_modifier = ship_build_50
+		remove_country_modifier = ship_build_70
+		remove_country_modifier = ship_build_85
+	}
+}
+
 # Cheat: grant all technology (BlackICE 15.1). Console: event 9996
 # One firing takes every listed tech to its max_level and never past it (safe to fire again).
 # Choices: heavy air, gasoline engine, welded armour, special treatment steel, closed hangar,

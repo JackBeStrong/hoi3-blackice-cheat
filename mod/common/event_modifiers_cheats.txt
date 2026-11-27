@@ -10,3 +10,15 @@ leadship1 = {
 	global_leadership_modifier = 5
 	leadership_gain = 3
 }
+
+ship_build_50 = {
+	naval_build_speed = -0.5
+}
+
+ship_build_70 = {
+	naval_build_speed = -0.7
+}
+
+ship_build_85 = {
+	naval_build_speed = -0.85
+}
